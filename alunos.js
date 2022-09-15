@@ -686,6 +686,7 @@ var alunos = [
     }
 ];
 
+//Function para filtrar os alunos pela matricula
 const alunosFilter = (id) => {
     let matriculaAluno = id;
     let erro = true;
@@ -713,6 +714,7 @@ const alunosFilter = (id) => {
     }
 }
 
+//Function para mostrar as infos de cada curso
 const getAlunosCurso = (id) => {
     let cursoAluno = id;
     let listaInfosCurso = [];
@@ -737,15 +739,7 @@ const getAlunosCurso = (id) => {
 
 }
 
-
-
-console.log(getAlunosCurso('ds'));
-
-
-
-
-
-
+//Fazer uma Function para filtrar os anos de conclusao!!!!!!!!!!!!!
 
 
 // console.log(alunosFilter('20151001001'));

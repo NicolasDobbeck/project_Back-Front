@@ -1,0 +1,125 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    background-color: #3347B0;
+    text-decoration: none;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+}
+
+.logo-image{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    margin-left: 60px;
+    gap: 12px;
+    
+}
+
+.logo-name{
+    display: flex;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.exit{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    margin-right: 60px;
+    padding: 16px;
+}
+
+.exit i{
+    display: flex;
+    color: #FFFFFF;
+    width: 30px;
+}
+
+.exit link{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    margin-left: 60px;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.container-title-device{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.container-title-device span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.container-title-device pre{
+    color: #3347B0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+footer{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    
+    align-items: center;
+    background-color: #3347B0;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    margin-left: 60px;
+}
+
+.icons-contact{
+    display: flex;
+    
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.copy{
+    color: #FFFFFF;
+    font-size: 18px;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+}
+
